@@ -1,0 +1,100 @@
+<nav class="p-4 w-full">
+  <ul class="menu bg-base-200 sm:menu-horizontal rounded-box">
+    <li>
+      <a class="btn" routerLink="by-capital" routerLinkActive="btn-primary">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 48 48"
+        >
+          <path
+            fill="currentColor"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
+            d="M20.5 10.537C20.5 6.514 22.833 4.503 24 4c1.167.503 3.5 2.514 3.5 6.537v7.543L43 31v4l-16-8v9l5 8l-8-3l-8 3l5-8v-9L5 35v-4l15.5-12.92z"
+          />
+        </svg>
+        Por capital
+      </a>
+    </li>
+    <li>
+      <a class="btn" routerLink="by-country" routerLinkActive="btn-primary">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 48 48"
+        >
+          <defs>
+            <mask id="ipSMapDraw0">
+              <g
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="4"
+              >
+                <path
+                  fill="#fff"
+                  stroke="#fff"
+                  d="M17 12L4 6v30l13 6l14-6l13 6V12L31 6z"
+                />
+                <path stroke="#000" d="M31 6v30M17 12v30" />
+                <path
+                  stroke="#fff"
+                  d="m10.5 9l6.5 3l14-6l6.5 3m-27 30l6.5 3l14-6l6.5 3"
+                />
+              </g>
+            </mask>
+          </defs>
+          <path
+            fill="currentColor"
+            d="M0 0h48v48H0z"
+            mask="url(#ipSMapDraw0)"
+          />
+        </svg>
+        Por pais
+      </a>
+    </li>
+    <li>
+      <a class="btn" routerLink="by-region" routerLinkActive="btn-primary">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 48 48"
+        >
+          <defs>
+            <mask id="ipSMapDistance0">
+              <g fill="none" stroke-linejoin="round" stroke-width="4">
+                <path
+                  fill="#fff"
+                  stroke="#fff"
+                  d="M39.3 6H8.7A2.7 2.7 0 0 0 6 8.7v30.6A2.7 2.7 0 0 0 8.7 42h30.6a2.7 2.7 0 0 0 2.7-2.7V8.7A2.7 2.7 0 0 0 39.3 6Z"
+                />
+                <path
+                  stroke="#000"
+                  stroke-linecap="round"
+                  d="m36 27l-7 3m-8 3l-7 3"
+                />
+                <path
+                  fill="#000"
+                  stroke="#000"
+                  d="M16 29q3-4.343 3-6a3 3 0 1 0-6 0q0 1.657 3 6Zm16-7q3-4.343 3-6a3 3 0 1 0-6 0q0 1.657 3 6Z"
+                />
+              </g>
+            </mask>
+          </defs>
+          <path
+            fill="currentColor"
+            d="M0 0h48v48H0z"
+            mask="url(#ipSMapDistance0)"
+          />
+        </svg>
+        Por region
+      </a>
+    </li>
+  </ul>
+</nav>
