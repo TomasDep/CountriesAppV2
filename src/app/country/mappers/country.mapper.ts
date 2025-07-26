@@ -10,8 +10,9 @@ export class CountryMapper {
       flag: restCountryResp.flag,
       svg: restCountryResp.flags.svg,
       name: restCountryResp.translations[TRANSLATION].common ?? restCountryResp.name,
-      capital: restCountryResp.capital.join(' '),
-      population: restCountryResp.population
+      capital: restCountryResp.capital?.join(' '),
+      population: restCountryResp.population,
+      region: restCountryResp.region,
     };
   }
 
